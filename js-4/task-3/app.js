@@ -15,15 +15,23 @@ while(m!==n){
    else{ alert("yuxarı qalx");}
    m=+prompt("eded texmin edin : ")
    }
-   if(texmin>8){
-        console.log("zeif texmin");
+   console.log("düzgün texmin tebrikler");
+   
+   console.log("siz "+texmin+" defeye ededi tapdız ");
+
+ if(texmin===1){
+    console.log("1000 manat qazandınız");
    }
-   else if(texmin===1){
-    console.log("möhteşem");
+   else if(texmin==2 || texmin==3 || texmin==4 || texmin==5 ){
+        console.log("750 manat qazandınız");
    }
-   else if(texmin<5 && texmin!==1){
-    console.log("ela texmin");
+ 
+   else if(texmin==6 || texmin==7 || texmin==8 || texmin==9){
+    console.log("250 manat qazandınız");
 
    }
-   console.log("siz "+texmin+" defeye ededi tapdız ");
-console.log("düzgün texmin tebrikler");
+   else if(texmin>10){
+    console.log("bir de texmin eleme");
+   }
+
+
