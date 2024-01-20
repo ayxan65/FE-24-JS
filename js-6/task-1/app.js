@@ -1,14 +1,15 @@
-let myfunction=(number)=>{
-
-   for(let i=2;i<=number;i++){
-    if(number%i!==0){
-     return `${number} is prime`
-    }
-   
-
-  else{
-    return `${number} is not prime`
-  }
+let myfunction=(number,yes,no,)=>{
+if(number>10){
+    
+    yes()
 }
+else{
+    no()
 }
-console.log(myfunction(86));
+
+}
+myfunction(20,function(){
+    console.log(`tebrikler ${uni} ye daxil olmusunuz`);
+},function(){
+    console.log("üzgün");
+})
