@@ -124,6 +124,10 @@ margin-left: 18px;
     }
     
 }
+.links a:hover{
+    color: #E1B168;
+    transition: 0.4s;
+}
 
 @media (max-width:760px){
     .container{
