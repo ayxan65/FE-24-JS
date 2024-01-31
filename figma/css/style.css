@@ -8,6 +8,7 @@
 .header
 {
     background-color: #2f343b;
+    position: sticky;
     
 }
 .container{
@@ -151,4 +152,133 @@ margin-left: 18px;
     .contact,.reserve{
         display: none;
     }
+}
+.main{
+    background-color:#2f343b ;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.yazi{
+    margin-left: 20px;
+    font-size: 60px;
+    color: #fff;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+
+}
+.img{
+    
+    scale: 0.7;
+    
+}
+.lyazi{
+    font-size: 16px;
+    width: 500px;
+    margin-top: 35px;
+}
+.button{
+    border: 2px #E1B168 solid;
+    color: #E1B168;
+    background-color: transparent;
+    font-size: 18px;
+    width: 210px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.button:hover{
+    background-color: #E1B168;
+    color: black;
+    transition: 0.4s;
+}
+
+.img::after{
+    background-color: rgba(255, 255, 255, 0.10);
+    height: 300px;
+    width: 30px;
+}
+.logos
+{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   margin-top: 30px;
+   width: 1100px;
+}
+.logos img{
+    scale: 0.6;
+}
+.icon1,.icon2,.icon3{
+        background-color: #292E36;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+}
+.i3,.i2,.i1{
+    width: 350px;
+}
+.imgg img{
+    scale: 0.9;
+    margin-left: -10px;
+   
+}
+.section3{
+   
+    
+    
+}
+.textstory{
+position: relative;
+
+font-size: 40px;
+
+}
+.content{
+    font-size: 16px;
+   width: 450px;
+   margin-top: 20px;
+}
+.textcon{
+    position: relative;
+    left: 750px;
+    bottom: 450px;
+    
+    width: 500px;
+}
+.year{
+    font-size: 26px;
+    margin-top: 80px;
+
+}
+#year{
+ 
+}
+.content2{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.content3{
+    width: 200px;
+    position: relative;
+    top: 150px;
+    right: 60px;
+}
+.content4{
+    width: 260px;
+   position: relative;
+   top: 150px;
+   right: 60px;
+
 }
