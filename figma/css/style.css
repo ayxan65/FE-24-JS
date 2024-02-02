@@ -233,11 +233,7 @@ margin-left: 18px;
     margin-left: -10px;
    
 }
-.section3{
-   
-    
-    
-}
+
 .textstory{
 position: relative;
 
@@ -261,13 +257,12 @@ font-size: 40px;
     margin-top: 80px;
 
 }
-#year{
- 
-}
+
 .content2{
     display: flex;
     width: 400px;
     justify-content: space-between;
+
 }
 .content3{
     width: 200px;
@@ -280,5 +275,12 @@ font-size: 40px;
    position: relative;
    top: 150px;
    right: 60px;
+
+}
+
+.section3{
+
+  background-color: #b1ada6;
+  margin-top: 20px;
 
 }
