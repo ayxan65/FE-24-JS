@@ -45,6 +45,7 @@
 
 // TASK-3 (ulduz şekli -> ALINMADI)
 
+
 //************************************************* */
 
 // TASK-4 (Faktorial)
@@ -228,7 +229,7 @@
 
 /******************************************************* */
 
-// TASK-15 ("." simvolunun yerleşme indeksi) -> ALINMADI
+// TASK-15 ("." simvolunun yerleşme indeksi) 
 
 // let a=prompt("setri daxil edin: ")
 // for (let i=0;i<=a.length-1;i++){
