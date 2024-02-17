@@ -272,18 +272,26 @@
 
 // const Armstrong=(num)=>
 // {
-//      text=num.toString()
-//      for(let i=0;i<=text.length-1;i++)
+//     cem=0
+//     num=String(num)
+//      for(let i=0;i<=num.length-1;i++)
 //      {
-//      if(num==(text[i])**3){
-//            return "armstrong"
-//      }
-//     }
+//         cem+=(num[i]**3)
 
+//     }
+//     num=Number(num)
+//     if(cem===num){
+//         return `${num} armstrong ededidir.`
+
+//     }
+//     else if(cem!==num){ return `${num} armstrong ededi deyil.`}
+//     else{return "eded daxil edin !!!" }
+// }
     
 
-// }
-// console.log(Armstrong("153")); => İŞLEMEDİ
+
+// console.log(Armstrong(370));
+
 
 
 //************************************************************* */
@@ -345,3 +353,8 @@
 //    return cem
 // }
 // console.log(digit(123));
+
+
+
+
+
