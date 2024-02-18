@@ -407,7 +407,7 @@
 //      }
 //      return say
 // }
-// console.log(letterfind("ayxan","p"));
+// console.log(letterfind("ayxan","a"));
 
 
 //**************************************************** */
@@ -448,8 +448,4 @@
 //    return cem
 // }
 // console.log(digit(123));
-
-
-
-
 
