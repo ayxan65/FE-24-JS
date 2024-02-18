@@ -214,7 +214,7 @@
 //         return "eded daxil edin !!!"
 //     }
 // }
-// console.log(isNegative("abcd"));
+// console.log(isNegative(-347));
 
 
 //************************************************************ */
