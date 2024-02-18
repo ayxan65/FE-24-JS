@@ -115,6 +115,30 @@
 // islucky(2,3,4,3,7,3)
 
 
+// 2-Cİ ÜSUL : 
+
+
+// const islucky=(code)=>
+// {
+//     code=String(code)
+//     if(code.length!=6){console.log("6 reqem daxil edin!!!");}
+    
+    
+//         if(Number(code[0])+Number(code[1])+Number(code[2])==Number(code[3])+Number(code[4])+Number(code[5]))
+//         {
+//            return "tebrikler qazandınız"
+//         }
+//         else if((Number(code[0])+Number(code[1])+Number(code[2])!=Number(code[3])+Number(code[4])+Number(code[5]))){
+//            return "şansınızı bir daha sınayın :("
+//         }
+//         else{
+//             return "eded daxil edin !!!"
+//         }
+    
+// }
+// console.log(islucky(222114));
+
+
 
 
 //*************************************************************** */
