@@ -259,7 +259,8 @@
 //             return 30
 //         case "dekabr":
 //             return 31
-//         default: "bele ay yoxdur !!!" 
+//         default:
+            //    return "bele ay yoxdur !!!" 
         
 //     }
 //  }
