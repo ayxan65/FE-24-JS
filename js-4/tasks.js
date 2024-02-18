@@ -229,7 +229,54 @@
 //**************************************************** */
 
 
-// TASK-12 (EBOB)
+ // TASK-12 (ayların günleri)
+
+//  const month=(ay)=>
+//  {
+//     switch(ay)
+//     {
+//         case "yanvar":
+//             return 31
+//         case "fevral":
+//             return 28 
+//         case "mart":
+//             return 31
+//         case "aprel":
+//             return 30
+//         case "may":
+//             return 31
+//         case "iyun":
+//             return 30
+//         case "iyul":
+//             return  31
+//         case "avqust":
+//             return 31
+//         case "sentyabr":
+//             return 30
+//         case "oktyabr":
+//             return 31
+//         case "noyabr":
+//             return 30
+//         case "dekabr":
+//             return 31
+//         default: "bele ay yoxdur !!!" 
+        
+//     }
+//  }
+//  console.log(month("fevral"));
+
+
+
+
+
+
+
+
+
+//**************************************************** */
+
+
+// TASK-13 (EBOB)
 
 // const EBOB=(num1,num2)=>
 // {
@@ -266,7 +313,7 @@
 //****************************************************** */
 
 
-// TASK-13 (Polindrom)
+// TASK-14 (Polindrom)
 
 
 // const Polindrom=(text)=>
@@ -291,7 +338,7 @@
 
 
 
-// TASK-14 (Armstrong)
+// TASK-15 (Armstrong)
 
 // const Armstrong=(num)=>
 // {
@@ -320,7 +367,7 @@
 //************************************************************* */
 
 
-// TASK-15 (metndeki herfin tapılması)
+// TASK-16 (metndeki herfin tapılması)
 
 // const letterfind=(text,letter)=>
 // {
@@ -341,7 +388,7 @@
 //**************************************************** */
 
 
-// TASK-16 (isİntiger)
+// TASK-17 (isİntiger)
 
 // const isİntiger=(any)=>
 // {
@@ -361,7 +408,7 @@
 //************************************************************** */
 
 
-// TASK-17 (3 reqem cemi)
+// TASK-18 (3 reqem cemi)
 
 // const digit=(num)=>
 // {
