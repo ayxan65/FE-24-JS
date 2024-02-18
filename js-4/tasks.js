@@ -98,20 +98,21 @@
 
 // TASK-6 (isLucky)
 
-// const islucky=(x1,x2,x3,x4,x5,x6)=>
+const islucky=(x1,x2,x3,x4,x5,x6)=>
 
-// {
-//   if(x1+x2+x3===x4+x5+x6)
-//   {
-//     console.log(`${x1+x2+x3} = ${x4+x5+x6}`);
-//     console.log("lucky");
-//   }
-//   else{
-//     console.log("false");
-//   }
+{
+  if(x1+x2+x3===x4+x5+x6)
+  {
+    console.log(`${x1+x2+x3} = ${x4+x5+x6}`);
+    console.log("Lucky");
+  }
+  else{
+    console.log(`${x1+x2+x3} != ${x4+x5+x6}`);
+    console.log("Not Lucky");
+  }
   
-// }
-// islucky(2,3,4,3,3,3)
+}
+islucky(2,3,4,3,7,3)
 
 
 
