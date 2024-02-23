@@ -109,14 +109,23 @@
 
 // TASK-5
 
-// function property(_object,name){
-//     this.continent=_object
-//     return name
+function property(object,name){
+   for (name in object){
+    console.log(object[name]);
+   }
+    
 
 
-// }
 
-// console.log(new property("asia"));  => ALINMADI
+}
+property({continent:"asia"})
+
+
+//****************************************************** */
+
+
+
+
 
 
 
