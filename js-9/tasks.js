@@ -100,26 +100,26 @@
 
 // TASK-7
 
-let namesArray = [
-    "Alice",
-    "Bob",
-    "Catherine",
-    "David",
-    "Eva",
-    "Andrew",
-    "Frank",
-    "Anna",
-    "George",
-    "Alex",
-  ];
-  let Aarray=[];
+// let namesArray = [
+//     "Alice",
+//     "Bob",
+//     "Catherine",
+//     "David",
+//     "Eva",
+//     "Andrew",
+//     "Frank",
+//     "Anna",
+//     "George",
+//     "Alex",
+//   ];
+//   let Aarray=[];
 
-for(i of namesArray){
-    if(i[0]==="A"){
-      Aarray.push(i)
-    }
-}
-console.log(Aarray);
+// for(i of namesArray){
+//     if(i[0]==="A"){
+//       Aarray.push(i)
+//     }
+// }
+// console.log(Aarray);
 
 
 
