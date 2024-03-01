@@ -79,7 +79,7 @@
 
 // TASK-6
 
-// const positivestodoublenegativestopostive=()=> // biraz uzun oldu
+// const PositivestoDoubleNegativestoPostive=()=> // biraz uzun oldu
 // {
 //   let a=prompt("daxil edin:")
 //   let arr=a.split(",").map(Number)
@@ -95,7 +95,7 @@
 
 
 // }
-// console.log(positivestodoublenegativestopostive());
+// console.log(PositivestoDoubleNegativestoPostive());
 
 
 // TASK-7
