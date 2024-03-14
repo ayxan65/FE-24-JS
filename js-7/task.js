@@ -8,7 +8,7 @@
 
 // }   
 //     console.log(a);
-    // => Stringle elaqesini başa düşe bilmedim :(
+//     => Stringle elaqesini başa düşe bilmedim :(
 
 
 //***************************************************** */
@@ -25,29 +25,21 @@
 //******************************************************* */
 
 
-// TASK-3
-
-// let ad=prompt("adınınzı daxil edin:")
-
-
-///********************************************************* */
-
-
 // TASK-4
 
-// const isValidNumber=()=>
-// {
-//     let number=prompt("nömrenizi daxil edin: ")
-//     if(number.slice(0,2)==="+7"&& number.length==12){
-//         return "nömre düzgündür"
-//     }
-//     else{
-//         return "düzgün deyil"
-//     }
+const isValidNumber=()=>
+{
+    let number=prompt("nömrenizi daxil edin: ")
+    if(number.slice(0,2)==="+7"&& number.length==12){
+        return "nömre düzgündür"
+    }
+    else{
+        return "düzgün deyil"
+    }
 
 
-// }
-// console.log(isValidNumber());
+}
+console.log(isValidNumber());
 
 
 //**************************************************** */
@@ -55,18 +47,18 @@
 
 // TASK-5
 
-// const number=()=>{
-//     let num=""
-//     let str=prompt(`metn daxil edin:`)
-//     for(let i=0;i<str.length;i++){
-//         if(str[i]==Number(str[i])){
-//               num+=str[i]
-//         }
-//     }
-//     return num
+const number=()=>{
+    let num=""
+    let str=prompt(`metn daxil edin:`)
+    for(let i=0;i<str.length;i++){
+        if(str[i]==Number(str[i])){
+              num+=str[i]
+        }
+    }
+    return num
 
-// }
-// console.log(number());
+}
+console.log(number());
 
 
 //********************************************************** */
@@ -193,14 +185,14 @@
 
 // TASK-14
 
-// const retrun=()=>
-// {
-//    let a=prompt("daxil edin:")
-//    let c
-//    c=a.slice(0,5)
-//    return c
-// }
-// console.log(retrun());
+const retrun=()=>
+{
+   let a=prompt("daxil edin:")
+   let c
+   c=a.slice(0,5)
+   return c
+}
+console.log(retrun());
 
 
 //**************************************************** */

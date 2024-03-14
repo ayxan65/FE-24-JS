@@ -57,3 +57,28 @@
 // let arr1=arr.join(";")
 // console.log(arr1);
 
+
+let a = prompt("Enter numbers separated by commas: ");
+let arr = a.split(",").map(Number); // Convert strings to numbers
+console.log("Original array:", arr);
+
+for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = 0; j < arr.length - i - 1; j++) {
+        if (arr[j] > arr[j + 1]) {
+            let temp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = temp;
+        }
+    }
+}
+
+console.log("Sorted array:", arr);
+console.log(arr===arr);
+
+
+
+
+
+
+
+

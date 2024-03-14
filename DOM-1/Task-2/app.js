@@ -28,5 +28,20 @@ purple.onclick=purpleclick
 green.onclick=greenclick
 red.onclick=redclick
 
-// RENG 100 DENE OLSAYDI NECE YAZACAĞIM HAQDA HEÇ BİR FİKRİM YOXDU :(
+
+
+
+
+const button=document.querySelectorAll(".buttons")
+button.forEach(item=>{
+
+    const color=item.className.split("")[1]
+    item.onclick=()=>{
+        
+    }
+})
+
+
+
+
 
