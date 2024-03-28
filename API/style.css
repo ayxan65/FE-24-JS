@@ -1,0 +1,24 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+.cards{
+display: grid;
+
+
+
+  
+
+}
+.card{
+
+
+    height: 200px;
+    width: 350px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 40px;
+ 
+  
+   
+}
