@@ -1,0 +1,46 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+}
+.colors{
+   color: black;
+}
+#netice{
+    font-size: 40px;
+    width: 300px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-weight: 800;
+    
+
+}
+.div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+}
+#guess{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+#computer{
+    margin-left: 30px;
+    font-size: 20px;
+}

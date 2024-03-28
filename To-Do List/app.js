@@ -2,14 +2,21 @@
 const button = document.getElementById("button");
 const input = document.getElementById("input");
 
+
+  function depola(){
+   let deger=input.value;
+    localStorage.setItem("user",deger)
+  }
+
 button.onclick = () => {
+    
     const li = document.createElement("li");
    
     li.innerText = input.value;
     document.body.appendChild(li);
     input.value = '';
     li.style.marginTop="10px";
-    const deleteButton = document.createElement("button");
+    const deleteButton = (document.createElement("button"));
     deleteButton.innerText = "X";
     deleteButton.style.width = "50px";
     deleteButton.style.height = "50px";
@@ -19,7 +26,7 @@ button.onclick = () => {
         li.style.display = "none";
     };
 
-    const confirmButton = document.createElement("button");
+    const confirmButton = (document.createElement("button"));
     confirmButton.onclick = () => {
         li.style.color = "green";
         li.style.textDecoration="line-through";
@@ -34,6 +41,7 @@ button.onclick = () => {
 
     li.appendChild(confirmButton);
     li.appendChild(deleteButton);
+  
 }
 
 
@@ -42,6 +50,12 @@ input.addEventListener("keydown", (e) => {
        button.onclick()
     }
 });
+
+
+
+
+
+
 
 
 
