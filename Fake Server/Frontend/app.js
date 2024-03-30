@@ -31,6 +31,30 @@ const Users = document.querySelector(".users");
 
 
 
+/******** axios then ile ********/
+
+const WriteData = () => {
+    axios.get(url) 
+        .then(response => {
+            const data = response.data;
+            data.forEach(({ name, surname, description, img }) => {
+                Users.innerHTML += `
+                    <div class="user">
+                        <h3>${name}</h3>
+                        <h4>${surname}</h4>
+                        <p>${description}</p>
+                        <img src="${img}" alt="">
+                    </div>`;
+              
+            });
+        })
+        .catch(error => {
+            console.error("Error", error);
+        });
+};
+WriteData();
+
+
 
 
 /******* Fetch ile ********/
