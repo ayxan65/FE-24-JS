@@ -1,0 +1,28 @@
+.users{
+    margin: auto;
+    width: 700px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+
+
+}
+.user:hover{
+    scale: 1.1;
+}
+
+.user{
+    height: 300px;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.user img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
