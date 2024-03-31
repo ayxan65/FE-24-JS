@@ -1,58 +1,59 @@
 const url = "http://localhost:3000/users";
 const Users = document.querySelector(".users");
+const button = document.querySelector("#button");
 
-/**** await axios ile ******/
+// /**** await axios ile ******/
 
+const WriteData = async () => {
+    const { data } = await axios(url);
+    
+    data.forEach(({ name, surname, description, img }) => {
+        const userElement = document.createElement("div");
+        userElement.classList.add("user");
 
-// const WriteData= async()=>{
-//     const {data}=await axios(url);
+        userElement.innerHTML += `
+            <h3>${name}</h3>
+            <h4>${surname}</h4>
+            <p>${description}</p>
+            <img src="${img}" alt="">
+            <button class="delete-button">Delete</button>
+        `;
 
-//     data.forEach(({name,surname,description,img})=> {
+        Users.appendChild(userElement);
         
-//         Users.innerHTML +=`<div class="user">
-//         <h3>
-//         ${name}
-//         </h3>
+        const deleteButton = userElement.querySelector(".delete-button");
+        deleteButton.addEventListener("click", () => {
+            
+            userElement.remove();
+        });
+    });
+};
 
-//         <h4>
-//         ${surname}
-//         </h4>
-//         <p>
-//             ${description}
-//         </p>
-        
-//         <img src="${img}" alt="">
-
-//     </div>`
-        
-//     });
-// }
-// WriteData();
-
+WriteData();
 
 
 /******** axios then ile ********/
 
-const WriteData = () => {
-    axios.get(url) 
-        .then(response => {
-            const data = response.data;
-            data.forEach(({ name, surname, description, img }) => {
-                Users.innerHTML += `
-                    <div class="user">
-                        <h3>${name}</h3>
-                        <h4>${surname}</h4>
-                        <p>${description}</p>
-                        <img src="${img}" alt="">
-                    </div>`;
+// const WriteData = () => {
+//     axios.get(url) 
+//         .then(response => {
+//             const data = response.data;
+//             data.forEach(({ name, surname, description, img }) => {
+//                 Users.innerHTML += `
+//                     <div class="user">
+//                         <h3>${name}</h3>
+//                         <h4>${surname}</h4>
+//                         <p>${description}</p>
+//                         <img src="${img}" alt="">
+//                     </div>`;
               
-            });
-        })
-        .catch(error => {
-            console.error("Error", error);
-        });
-};
-WriteData();
+//             });
+//         })
+//         .catch(error => {
+//             console.error("Error", error);
+//         });
+// };
+// WriteData();
 
 
 

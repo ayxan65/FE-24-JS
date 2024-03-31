@@ -4,14 +4,10 @@
     flex-wrap: wrap;
     display: flex;
     gap: 40px;
-    cursor: pointer;
     margin-top: 30px;
 
+}
 
-}
-.user:hover{
-    scale: 1.1;
-}
 
 .user{
     height: 300px;
@@ -25,4 +21,10 @@
     object-fit: cover;
     width: 150px;
     height: 150px;
+}
+button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+
 }
