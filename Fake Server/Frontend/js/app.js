@@ -44,7 +44,7 @@ const WriteData = async () => {
             <h4>${surname}</h4>
             <p>${description}</p>
             <img src="${img}" alt="">
-            <button class="delete-button" onclick="deleteUser(${id})">Delete</button>
+            <button class="delete-button" onclick="deleteUser('${id}')">Delete</button>
         `
         Users.appendChild(userElement);
         

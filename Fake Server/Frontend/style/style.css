@@ -1,0 +1,62 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.users{
+    margin: auto;
+    width: 700px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+
+}
+
+
+.user{
+    height: 300px;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.user img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+
+}
+.divv{
+    display: flex;
+    margin-right: 10px;
+}
+.login a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+   
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+
+}
+.logo{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 30px;
+}
