@@ -1,13 +1,41 @@
-const url = "http://localhost:3000/users";
+const url = "http://localhost:3000/users/";
 const Users = document.querySelector(".users");
 const button = document.querySelector("#button");
 
 // /**** await axios ile ******/
 
+function deleteUser(id){
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+        
+          axios.delete(url + id).then(res=>{
+            if(res.statusText =="OK"){
+                Swal.fire({
+                    title: "Deleted!",
+                    text: "Your file has been deleted.",
+                    icon: "success"
+                  });
+                  location.reload();
+            }
+
+          })
+        }
+       
+      });
+
+}
 const WriteData = async () => {
-    const { data } = await axios(url);
+    const {data} = await axios(url);
     
-    data.forEach(({ name, surname, description, img }) => {
+    data.forEach(({id, name, surname, description, img }) => {
         const userElement = document.createElement("div");
         userElement.classList.add("user");
 
@@ -16,15 +44,14 @@ const WriteData = async () => {
             <h4>${surname}</h4>
             <p>${description}</p>
             <img src="${img}" alt="">
-            <button class="delete-button">Delete</button>
-        `;
-
+            <button class="delete-button" onclick="deleteUser(${id})">Delete</button>
+        `
         Users.appendChild(userElement);
         
         const deleteButton = userElement.querySelector(".delete-button");
         deleteButton.addEventListener("click", () => {
             
-            userElement.remove();
+            
         });
     });
 };
