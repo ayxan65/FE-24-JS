@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-left: 30px;
+}
+.logo span{
+    font-size: 18px;
+    font-weight: normal;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.signin button , .signup button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+    
+}
+.signin{
+    margin-right: 8px;
+}
+.cards{
+    margin-top: 50px;
+}
+.card{
+    width: 260px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 20px ;
+    margin-left: 30px;
+    -webkit-box-shadow: 7px 5px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 5px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 7px 5px 5px -3px rgba(0,0,0,0.75);
+}
+img{
+    margin-top: 15px;
+   width: 250px;
+   height: 160px;
+}
+.specs{
+    text-align: center;
+    margin-top: 60px;
+}
+.specs p{
+    font-size: 18px;
+}
+.card a{
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    z-index: 1;
+    border-radius: 20px;
+  
+}

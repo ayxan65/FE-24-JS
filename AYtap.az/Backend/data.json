@@ -1,0 +1,69 @@
+{
+    "cars": [
+      {
+        "brand": "Toyota",
+        "model": "Corolla",
+        "image": "https://example.com/toyota_corolla.jpg",
+        "engine": "1.6 liters",
+        "kilometers": "50000",
+        "price": "25000"
+      },
+      {
+        "brand": "Honda",
+        "model": "Civic",
+        "image": "https://example.com/honda_civic.jpg",
+        "engine": "1.8 liters",
+        "kilometers": "60000",
+        "price": "27000"
+      },
+      {
+        "brand": "Ford",
+        "model": "Focus",
+        "image": "https://example.com/ford_focus.jpg",
+        "engine": "2.0 liters",
+        "kilometers": "45000",
+        "price": "23000"
+      },
+      {
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "image": "https://example.com/vw_golf.jpg",
+        "engine": "1.4 liters",
+        "kilometers": "55000",
+        "price": "20000"
+      },
+      {
+        "brand": "Renault",
+        "model": "Megane",
+        "image": "https://example.com/renault_megane.jpg",
+        "engine": "1.6 liters",
+        "kilometers": "48000",
+        "price": "21000"
+      },
+      {
+        "brand": "BMW",
+        "model": "3 Series",
+        "image": "https://example.com/bmw_3series.jpg",
+        "engine": "2.0 liters",
+        "kilometers": "40000",
+        "price": "35000"
+      },
+      {
+        "brand": "Mercedes-Benz",
+        "model": "C Class",
+        "image": "https://example.com/mercedes_cclass.jpg",
+        "engine": "2.0 liters",
+        "kilometers": "62000",
+        "price": "38000"
+      },
+      {
+        "brand": "Audi",
+        "model": "A4",
+        "image": "https://example.com/audi_a4.jpg",
+        "engine": "2.0 liters",
+        "kilometers": "53000",
+        "price": "32000"
+      }
+    ]
+  }
+  
