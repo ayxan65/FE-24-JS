@@ -3,66 +3,75 @@
       {
         "brand": "Toyota",
         "model": "Corolla",
-        "image": "https://example.com/toyota_corolla.jpg",
+        "image": "./images/2023-Toyota-GR-Corolla-Circuit-Edition-Front-Three-Quarter-Studio.avif",
         "engine": "1.6 liters",
-        "kilometers": "50000",
-        "price": "25000"
+        "kilometers": "50000KM",
+        "price": "25000",
+        "currency":"USD"
       },
       {
         "brand": "Honda",
         "model": "Civic",
-        "image": "https://example.com/honda_civic.jpg",
+        "image": "./images/indir.jpeg",
         "engine": "1.8 liters",
-        "kilometers": "60000",
-        "price": "27000"
+        "kilometers": "60000KM",
+        "price": "27000",
+        "currency":"AZN"      
+
       },
       {
         "brand": "Ford",
         "model": "Focus",
-        "image": "https://example.com/ford_focus.jpg",
+        "image": "./images/zIjTPJEM.webp",
         "engine": "2.0 liters",
-        "kilometers": "45000",
-        "price": "23000"
+        "kilometers": "45000KM",
+        "price": "23000",
+        "currency":"AZN" 
       },
       {
         "brand": "Volkswagen",
         "model": "Golf",
-        "image": "https://example.com/vw_golf.jpg",
+        "image": "./images/indir (1).jpeg",
         "engine": "1.4 liters",
-        "kilometers": "55000",
-        "price": "20000"
+        "kilometers": "55000KM",
+        "price": "20000",
+        "currency":"USD" 
       },
       {
         "brand": "Renault",
         "model": "Megane",
-        "image": "https://example.com/renault_megane.jpg",
+        "image": "./images/indir (2).jpeg",
         "engine": "1.6 liters",
-        "kilometers": "48000",
-        "price": "21000"
+        "kilometers": "48000KM",
+        "price": "21000",
+        "currency":"AZN" 
       },
       {
         "brand": "BMW",
         "model": "3 Series",
-        "image": "https://example.com/bmw_3series.jpg",
+        "image": "./images/indir (3).jpeg",
         "engine": "2.0 liters",
-        "kilometers": "40000",
-        "price": "35000"
+        "kilometers": "40000KM",
+        "price": "35000",
+        "currency":"USD" 
       },
       {
         "brand": "Mercedes-Benz",
         "model": "C Class",
-        "image": "https://example.com/mercedes_cclass.jpg",
+        "image": "./images/indir (4).jpeg",
         "engine": "2.0 liters",
-        "kilometers": "62000",
-        "price": "38000"
+        "kilometers": "62000KM",
+        "price": "38000",
+        "currency":"AZN" 
       },
       {
         "brand": "Audi",
         "model": "A4",
-        "image": "https://example.com/audi_a4.jpg",
+        "image": "./images/indir (5).jpeg",
         "engine": "2.0 liters",
-        "kilometers": "53000",
-        "price": "32000"
+        "kilometers": "53000KM",
+        "price": "32000",
+        "currency":"AZN" 
       }
     ]
   }

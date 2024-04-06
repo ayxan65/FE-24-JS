@@ -39,10 +39,10 @@
 .signin{
     margin-right: 8px;
 }
-.cards{
-    margin-top: 50px;
-}
+
+
 .card{
+    margin-top: 30px;
     width: 260px;
     height: 400px;
     border: 1px solid;
@@ -53,9 +53,11 @@
     box-shadow: 7px 5px 5px -3px rgba(0,0,0,0.75);
 }
 img{
-    margin-top: 15px;
-   width: 250px;
+    
+   width: 258px;
    height: 160px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
 }
 .specs{
     text-align: center;
