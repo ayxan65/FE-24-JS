@@ -1,7 +1,9 @@
 const url ="http://localhost:3000/cars/";
+const url2 = "http://localhost:3000/Users/";
 const button1 = document.querySelector("#btn1");
 const button2 = document.querySelector("#btn2");
-const cards=document.getElementById("cards")
+const cards=document.getElementById("cards");
+
 
 const GetData =async()=>{
     const {data} =await axios(url);
@@ -18,12 +20,39 @@ const GetData =async()=>{
 </div>
 </div>`})
 
-   
+
 }
 
-button1.onclick=()=>{
-    let ad = prompt("istifadeçi adınınzı daxil edin:");
-    let password = prompt("parolunuzu daxil edin:");
+
+
+const chechUser = async () => {
+    const { data } = await axios(url2);
+    
+    button1.addEventListener("click", () => {
+        const ad = prompt("İstifadəçi adınızı daxil edin");
+        const pass = prompt("Şifrənizi daxil edin");
+        
+        let isAuthenticated = false;
+        data.forEach(({ username, password }) => {
+            if (ad === username && pass === password) {
+                isAuthenticated = true;
+            }
+        });
+
+        if (isAuthenticated) {
+            window.location.href = "./profile.html";
+        } else {
+            alert("Belə istifadəçi yoxdur");
+        }
+    });
+}
+
+chechUser();
+
+
+
+button2.onclick=()=>{
+    
 }
 cards.style.display="flex";
 cards.style.flexWrap="wrap"

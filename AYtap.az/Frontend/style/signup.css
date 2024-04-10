@@ -1,0 +1,49 @@
+.box input{
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+
+
+}
+.box{
+    margin-top: 60px;
+    margin:60px auto;
+    width: 400px;
+}
+.box button{
+    width: 198px;
+    height: 40px;
+    background: green;
+    color: aliceblue;
+    margin: auto;
+    cursor: pointer;
+    border: 0;
+    order: -1;
+}
+
+h1{
+    text-align: center;
+}
+
+#geri{
+    width: 200px;
+    height: 40px;
+    
+    background-color: red;
+    color: #fff;
+    border: 0;
+  
+
+
+}
+.buttons{
+    
+    display: flex;
+    gap: 10px;
+    
+}
+.buttons button{
+    border-radius: 20px;
+}
