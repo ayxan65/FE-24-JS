@@ -29,21 +29,22 @@ const chechUser = async () => {
     const { data } = await axios(url2);
     
     button1.addEventListener("click", () => {
-        const ad = prompt("İstifadəçi adınızı daxil edin");
-        const pass = prompt("Şifrənizi daxil edin");
+        window.location.href = "./profile.html";
+        // const ad = prompt("İstifadəçi adınızı daxil edin");
+        // const pass = prompt("Şifrənizi daxil edin");
         
-        let isAuthenticated = false;
-        data.forEach(({ username, password }) => {
-            if (ad === username && pass === password) {
-                isAuthenticated = true;
-            }
-        });
+        // let isAuthenticated = false;
+        // data.forEach(({ username, password }) => {
+        //     if (ad === username && pass === password) {
+        //         isAuthenticated = true;
+        //     }
+        // });
 
-        if (isAuthenticated) {
-            window.location.href = "./profile.html";
-        } else {
-            alert("Belə istifadəçi yoxdur");
-        }
+        // if (isAuthenticated) {
+        //     window.location.href = "./profile.html";
+        // } else {
+        //     alert("Belə istifadəçi yoxdur");
+        // }
     });
 }
 

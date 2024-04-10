@@ -47,6 +47,12 @@
       "name": "Ayxan",
       "username": "ayxan-s",
       "password": "ıfıg"
+    },
+    {
+      "id": "f4af",
+      "name": "Ayxan",
+      "username": "oreag",
+      "password": "toshegj"
     }
   ],
   "UsersCars": [],
@@ -150,6 +156,16 @@
       "kilometers": "dgg",
       "price": "yl",
       "currency": "fttkı"
+    },
+    {
+      "id": "5273",
+      "brand": "mercede",
+      "model": "c 200",
+      "image": "C:\\fakepath\\mercedes.webp",
+      "engine": "2.0L",
+      "kilometers": "120 000",
+      "price": "32000",
+      "currency": "USD"
     }
   ]
 }
