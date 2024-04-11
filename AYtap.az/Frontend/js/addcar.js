@@ -1,4 +1,5 @@
 const url = "http://localhost:3000/cars/"
+const url2 = "http://localhost:3000/UsersCars/"
 const brandinput=document.getElementById("brand");
 const modelinput=document.getElementById("model");
 const imageinput=document.getElementById("image");
@@ -23,6 +24,9 @@ button.addEventListener("click",(e)=>{
         axios.post(url,NewUser).then(res=>{
             console.log(res);
             alert("elave edildi")
+        })
+        axios.post(url2,NewUser).then(res=>{
+            console.log(res);
         })
     }
 })
