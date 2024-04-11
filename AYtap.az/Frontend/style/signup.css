@@ -12,6 +12,12 @@
     margin:60px auto;
     width: 400px;
 }
+
+#sign{
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
 .box button{
     width: 198px;
     height: 40px;
