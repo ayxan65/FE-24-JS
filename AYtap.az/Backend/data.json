@@ -47,6 +47,16 @@
       "kilometers": "ge",
       "price": "rrgdb",
       "currency": "e"
+    },
+    {
+      "id": "f999",
+      "brand": "",
+      "model": "",
+      "image": "",
+      "engine": "",
+      "kilometers": "",
+      "price": "",
+      "currency": ""
     }
   ],
   "cars": [
@@ -129,26 +139,7 @@
       "price": "32000",
       "currency": "AZN",
       "id": "6ce7"
-    },
-    {
-      "id": "a7bc",
-      "brand": "bkea",
-      "model": "ojı",
-      "image": "ulvl",
-      "engine": "hbş",
-      "kilometers": "yl",
-      "price": "yl",
-      "currency": "fttkı"
-    },
-    {
-      "id": "5d7e",
-      "brand": "k",
-      "model": "i",
-      "image": "f",
-      "engine": "f",
-      "kilometers": "ge",
-      "price": "rrgdb",
-      "currency": "e"
     }
+    
   ]
 }

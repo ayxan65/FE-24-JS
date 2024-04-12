@@ -8,6 +8,8 @@ const passinput = document.getElementById("password");
 const box=document.querySelector(".box");
 const h1 =document.getElementById("h1");
 const h2 =document.getElementById("h2");
+
+
 const writedata = async () => {
   try {
     const response = await axios.get(url);
