@@ -23,7 +23,24 @@ button.addEventListener("click",(e)=>{
     if(brand && model&& image&& engine&& kilometers && price && currency){
         axios.post(url,NewUser).then(res=>{
             console.log(res);
-            alert("elave edildi")
+            Swal.fire({
+                title: "Avtomobil elave edildi",
+                showClass: {
+                    popup: `
+                        animate__animated
+                        animate__fadeInUp
+                        animate__faster
+                    `
+                },
+                hideClass: {
+                    popup: `
+                        animate__animated
+                        animate__fadeOutDown
+                        animate__faster
+                    `
+                }
+            });
+            // alert("elave edildi")
         })
         axios.post(url2,NewUser).then(res=>{
             console.log(res);

@@ -40,7 +40,7 @@ const writedata = async () => {
       }
     });
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error(error);
   }
 };
 
