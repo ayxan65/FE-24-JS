@@ -8,7 +8,7 @@ const cards=document.getElementById("cards");
 const GetData =async()=>{
     const {data} =await axios(url);
     data.forEach(({brand,image,model,engine,price,kilometers,currency})=>{  cards.innerHTML+=`<div class="card">
-<a href="#"></a>
+<a href="./car.html"></a>
 <img src="${image}" alt="">
 <div class="specs">
 <h2>${price}${currency}</h3>

@@ -40,13 +40,15 @@ button.addEventListener("click",(e)=>{
                     `
                 }
             });
-            // alert("elave edildi")
+            
         })
         axios.post(url2,NewUser).then(res=>{
             console.log(res);
         })
     }
 })
+
+
 
 geributton.onclick=()=>{
     window.location.href="index.html"
