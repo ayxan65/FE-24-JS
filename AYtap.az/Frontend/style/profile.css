@@ -15,6 +15,27 @@
     margin-top: 50px;
 
 }
+/* .car{
+    margin: 40px auto;
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    display: none;
+    text-align: center;
+    line-height: 40px;
+} */
+.cardata{
+    margin: 40px auto;
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    display: none;
+    text-align: center;
+    line-height: 40px;
+    overflow: auto;
+
+}
+
 .box{
     width: 790px;
     

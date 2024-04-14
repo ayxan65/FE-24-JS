@@ -9,6 +9,7 @@ const priceinput=document.getElementById("price");
 const currencyinput=document.getElementById("currency");
 const button=document.getElementById("add");
 const geributton=document.getElementById("geri");
+
 button.addEventListener("click",(e)=>{
     NewUser ={
         brand:brandinput.value,
@@ -53,3 +54,6 @@ button.addEventListener("click",(e)=>{
 geributton.onclick=()=>{
     window.location.href="index.html"
 }
+
+
+

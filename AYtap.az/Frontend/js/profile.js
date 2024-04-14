@@ -8,7 +8,8 @@ const passinput = document.getElementById("password");
 const box=document.querySelector(".box");
 const h1 =document.getElementById("h1");
 const h2 =document.getElementById("h2");
-
+const cardata = document.querySelector(".cardata");
+const H = document.getElementById("hhh");
 
 const writedata = async () => {
   try {
@@ -28,13 +29,16 @@ const writedata = async () => {
         h2.style.display="none";
         div.style.display = "block";
         box.style.display="none";
+        cardata.style.display="block";
+        H.style.display="block";
         div.innerHTML = `<div class="info">
-            <h2>id: ${user.id}</h2>
+        <h2>id: ${user.id}</h2>
             <h3> username: ${user.username}</h3>
             <h3>name: ${user.name}</h3>
             <a href="./addcar.html"> <button id="addcar">Add Car</button></a>
             <a href="./index.html"> <button id="skip">Geri</button></a>
             </div>`;
+            
       } else {
         alert("istifadeçi yoxdur."); 
       }
@@ -45,4 +49,23 @@ const writedata = async () => {
 };
 
 writedata();
+
+
+const getdata =async()=>{
+ const {data}= await axios(url2);
+ 
+ data.forEach(({brand,model,engine,price,currency})=>{
+  cardata.innerHTML += `   <div class="car">
+  <h2>${brand}</h2>
+  <h3>${model}</h3>
+  <h3>${engine}</h3>
+  <h3>${price} ${currency}</h3>
+
+  
+  <hr>
+</div>`
+
+ })
+}
+getdata();
 
