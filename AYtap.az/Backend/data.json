@@ -60,7 +60,8 @@
       "kilometers": "50000KM",
       "price": "25000",
       "currency": "USD",
-      "id": "bbd5"
+      "id": "bbd5",
+      "author": "David Johnson"
     },
     {
       "brand": "Honda",
@@ -70,7 +71,8 @@
       "kilometers": "60000KM",
       "price": "27000",
       "currency": "AZN",
-      "id": "abda"
+      "id": "abda",
+      "author": "Emily Smith"
     },
     {
       "brand": "Ford",
@@ -80,7 +82,8 @@
       "kilometers": "45000KM",
       "price": "23000",
       "currency": "AZN",
-      "id": "8c7e"
+      "id": "8c7e",
+      "author": "Michael Brown"
     },
     {
       "brand": "Volkswagen",
@@ -90,7 +93,8 @@
       "kilometers": "55000KM",
       "price": "20000",
       "currency": "USD",
-      "id": "9e57"
+      "id": "9e57",
+      "author": "Sarah Davis"
     },
     {
       "brand": "Renault",
@@ -100,7 +104,8 @@
       "kilometers": "48000KM",
       "price": "21000",
       "currency": "AZN",
-      "id": "f8dd"
+      "id": "f8dd",
+      "author": "Daniel Wilson"
     },
     {
       "brand": "BMW",
@@ -110,7 +115,8 @@
       "kilometers": "40000KM",
       "price": "35000",
       "currency": "USD",
-      "id": "aad2"
+      "id": "aad2",
+      "author": "Jessica Martinez"
     },
     {
       "brand": "Mercedes-Benz",
@@ -120,7 +126,8 @@
       "kilometers": "62000KM",
       "price": "38000",
       "currency": "AZN",
-      "id": "a075"
+      "id": "a075",
+      "author": "William Taylor"
     },
     {
       "brand": "Audi",
@@ -130,8 +137,10 @@
       "kilometers": "53000KM",
       "price": "32000",
       "currency": "AZN",
-      "id": "6ce7"
-    },
+      "id": "6ce7",
+      "author": "Olivia Anderson"
+    }
+    ,
     {
       "id": "7bb5",
       "brand": "Volkswagen",
@@ -140,67 +149,8 @@
       "engine": "1.6L",
       "kilometers": "160000",
       "price": "12000",
-      "currency": "AZN"
-    },
-    {
-      "id": "0d7f",
-      "brand": "dsj",
-      "model": "jrw",
-      "image": "bjt",
-      "engine": "h",
-      "kilometers": "h",
-      "price": "h",
-      "currency": "h"
-    },
-    {
-      "id": "1dc8",
-      "brand": "g",
-      "model": "ş",
-      "image": "l",
-      "engine": "k",
-      "kilometers": "k",
-      "price": "k",
-      "currency": "k"
-    },
-    {
-      "id": "97c4",
-      "brand": "k",
-      "model": "k",
-      "image": "k",
-      "engine": "k",
-      "kilometers": "k",
-      "price": "k",
-      "currency": "k"
-    },
-    {
-      "id": "e4c9",
-      "brand": "g",
-      "model": "k",
-      "image": "k",
-      "engine": "k",
-      "kilometers": "k",
-      "price": "kk",
-      "currency": "k"
-    },
-    {
-      "id": "e055",
-      "brand": "toyota",
-      "model": "car",
-      "image": "#",
-      "engine": "fks",
-      "kilometers": "jzfs",
-      "price": "sj",
-      "currency": "kfb"
-    },
-    {
-      "id": "7b5b",
-      "brand": "mercedes",
-      "model": "car",
-      "image": "dkf",
-      "engine": "2.0",
-      "kilometers": "3312",
-      "price": "25",
-      "currency": "usd"
+      "currency": "AZN",
+      "author": "Ayxan Memmedli"
     }
   ]
 }

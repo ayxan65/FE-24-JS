@@ -1,23 +1,19 @@
-const url = "http://localhost:3000/cars/";
 const container = document.querySelector(".container");
-
-getData =async()=>{
-    const {data} = await axios(url);
-    data.forEach(({brand,model,image,engine,kilometers})=>{
-        container.innerHTML =`
-        <div class="header"><h2>${brand}</h2><h2>${model}</h2><h2>${engine}</h2><h2>2017</h2><h2>${kilometers}</h2></div>
-        <div class="photo">
-            <img src="${image}" alt="">
-        </div>
-        <div class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iste magni harum deleniti quo, accusantium facere dolore reprehenderit hic consectetur similique eaque ipsam aliquam fugit illo deserunt totam architecto placeat?
-        </div>`
+const id = new URL(document.location).searchParams.get("id");
+const url = "http://localhost:3000/cars/";
+const test = axios(url).then((res)=>{
+    res.data.forEach(element => {
+        if(element.id == id){
+            container.innerHTML +=
+            `  <div class="car">
+             <img src="${element.image}" alt="">
+            <h2>${element.brand}</h2>
+            <h3>${element.model}</h3>
+            <h3>${element.price} ${element.currency}</h3>
+            <h3>${element.engine}</h3>
+            <h3>${element.kilometers}</h3>
+            <h3>added by : ${element.author}</h3>
+          </div>`
+        }
     })
-}
-getData();
-
-
-
-
-
-
+})

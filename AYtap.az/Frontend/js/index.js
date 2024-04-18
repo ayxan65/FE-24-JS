@@ -7,8 +7,8 @@ const cards=document.getElementById("cards");
 
 const GetData =async()=>{
     const {data} =await axios(url);
-    data.forEach(({brand,image,model,engine,price,kilometers,currency})=>{  cards.innerHTML+=`<div class="card">
-<a href="./car.html"></a>
+    data.forEach(({id,brand,image,model,engine,price,kilometers,currency})=>{  cards.innerHTML+=`<div class="card">
+<a href=./car.html?id=${id}></a>
 <img src="${image}" alt="">
 <div class="specs">
 <h2>${price}${currency}</h3>
@@ -30,22 +30,7 @@ const chechUser = async () => {
     
     button1.addEventListener("click", () => {
         window.location.href = "./profile.html";
-        // const ad = prompt("İstifadəçi adınızı daxil edin");
-        // const pass = prompt("Şifrənizi daxil edin");
-        
-        // let isAuthenticated = false;
-        // data.forEach(({ username, password }) => {
-        //     if (ad === username && pass === password) {
-        //         isAuthenticated = true;
-        //     }
-        // });
-
-        // if (isAuthenticated) {
-        //     window.location.href = "./profile.html";
-        // } else {
-        //     alert("Belə istifadəçi yoxdur");
-        // }
-    });
+          });
 }
 
 chechUser();

@@ -29,7 +29,7 @@ const writedata = async () => {
           h2.style.display="none";
           div.style.display = "block";
           box.style.display="none";
-          cardata.style.display="block";
+          // cardata.style.display="block";
           div.innerHTML = `<div class="info">
           <h2>id: ${user.id}</h2>
               <h3> username: ${user.username}</h3>
