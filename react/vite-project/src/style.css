@@ -10,13 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+   
     
 }
+
 
 .container{
  height: 600px;
  width: 1100px;
- border: 1px solid;
+ border: 1px blue solid;
  margin: 70px 0 0 0 ;
  background: rgb(246, 245, 245);
  display: flex;
@@ -27,8 +30,9 @@
 {
     height: 200px;
     width: 300px;
-    border: 1px solid;
+    border: 1px red solid;
     margin-top: 30px;
     margin-left: 30px;
     padding: 10px;
 }
+
