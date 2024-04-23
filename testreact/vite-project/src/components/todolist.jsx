@@ -45,9 +45,9 @@ const Todolist = () => {
 
         
         <ul>
-           {todo.map((todo)=>{
+           {todo.map((todo,index)=>{
             return(
-                <li typ>{todo}</li>
+                <li key = {index}>{todo}</li>
             )
            })}
         </ul>
