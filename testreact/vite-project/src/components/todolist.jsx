@@ -1,8 +1,28 @@
 import React, { useState } from 'react'
 
 const Todolist = () => {
-    const [todo,settodo] = useState(["ders oxu"," kod yaz"])
-    const [newtodo,setNewtodo] =useState("")
+    const [todo,settodo] = useState(["ders oxu"," kod yaz"]);
+    const [newtodo,setNewtodo] =useState("");
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault(); 
+            if (newtodo.trim() === '') {
+                alert('boş yazma');
+            } else {
+                settodo([newtodo, ...todo]);
+                setNewtodo('');
+            }
+        }
+    };
+    
+    const handleAddButton = () => {
+        if (newtodo.trim() === '') {
+            alert('boş yazma');
+        } else {
+            settodo([newtodo, ...todo]);
+            setNewtodo('');
+        }
+    };
 
     return (
     <div>
@@ -15,26 +35,12 @@ const Todolist = () => {
     type="text" 
     value={newtodo} 
     onChange={(e) => setNewtodo(e.target.value)} 
-   function onk onKeyDown={(e) => {
-        if (e.key === 'Enter') {
-            e.preventDefault(); 
-            if (newtodo.trim() === '') {
-                alert('boş yazma');
-            } else {
-                settodo([newtodo, ...todo]);
-                setNewtodo('');
-            }
-        }
-    }} 
+    onKeyDown={handleKeyDown}
+  
 />
-<button onClick={() => {
-    if (newtodo.trim() === '') {
-        alert('boş yazma');
-    } else {
-        settodo([newtodo, ...todo]);
-        setNewtodo('');
-    }
-}}>
+<button onClick={handleAddButton}
+ 
+>
     Add
 </button>
 
