@@ -38,11 +38,10 @@ const Todolist = () => {
     onKeyDown={handleKeyDown}
   
 />
-<button onClick={handleAddButton}
+<button onClick={handleAddButton}>Add</button>
  
->
-    Add
-</button>
+
+
 
         
         <ul>
