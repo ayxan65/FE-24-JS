@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import HandleBtn from './handlebtn';
 
 const Todolist = () => {
     const [todo,settodo] = useState(["ders oxu"," kod yaz"]);
@@ -14,15 +15,7 @@ const Todolist = () => {
             }
         }
     };
-    
-    const handleAddButton = () => {
-        if (newtodo.trim() === '') {
-            alert('boş yazma');
-        } else {
-            settodo([newtodo, ...todo]);
-            setNewtodo('');
-        }
-    };
+  
 
     return (
     <div>
@@ -38,7 +31,8 @@ const Todolist = () => {
     onKeyDown={handleKeyDown}
   
 />
-<button onClick={handleAddButton}>Add</button>
+{/* <button onClick={handleAddButton}>Add</button> */}
+<HandleBtn/>
  
 
 
