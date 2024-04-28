@@ -11,6 +11,9 @@
     align-items: center;
     
 }
+h2{
+    margin: 1.6rem;
+}
 .user{
     margin: 1rem;
     font-weight: bold;
