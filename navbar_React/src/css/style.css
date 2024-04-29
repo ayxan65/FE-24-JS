@@ -11,6 +11,13 @@
     align-items: center;
     
 }
+.mapedlink{
+    color: #000;
+    text-decoration: none;
+}
+.mapedlink:hover{
+    color: red;
+}
 h2{
     margin: 1.6rem;
 }
@@ -26,6 +33,7 @@ h2{
     text-decoration: none;
     margin-right: 1rem;
     font-size: 20px;
+    
 
 
 }

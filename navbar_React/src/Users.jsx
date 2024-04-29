@@ -21,7 +21,7 @@ const Users = () => {
         {
             users.map(({id,username})=>{
                 return <div key={id} className='user'>
-                    <Link to={`/user/${id}`}>{username}</Link>
+                    <Link className='mapedlink' to={`/user/${id}`}>{username}</Link>
                 </div>
             })
         }
