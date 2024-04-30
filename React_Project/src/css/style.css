@@ -1,0 +1,121 @@
+@font-face {
+    font-family: poppins;
+    src: url('./Poppins-Regular.ttf');
+}
+
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-family: poppins;
+}
+
+/********** NavBar CSS *********************/
+
+.Nav{
+    background-color: rgba(28, 30, 83, 1);
+    height: 66px;
+}
+.Nav img{
+    width: 100px;
+    height: 66px;
+}
+
+.Navcontainer{
+    margin: 0 4.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    margin-right: 20px;
+    color: #fff;
+    opacity: 0.7;
+}
+.active{
+    color: white;
+    opacity: 1;
+}
+.button{
+    
+    
+    padding: 10px 20px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+     
+    
+    display: inline-block;
+    border-radius: 41px;
+}
+.button:hover{
+    background-color: blue;
+    transition:  .56s ease-in-out;
+}
+
+/* ******** Banner CSS * *********************/
+
+.banner{
+    height: calc(100vh - 66px);
+    background-color: rgba(28, 30, 83, 1);
+   
+
+}
+.container{
+    margin: 0 4.5em;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header{
+    font-weight: 800;
+    font-size: 52px;
+    width: 600px;
+}
+.footer{
+    width: 600px;
+    margin-top: 30px;
+    
+}
+.left {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 550px;
+
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px; 
+}
+
+.view{
+    position: relative;
+    top: 70px;
+    background-color: rgba(252, 217, 128, 1);
+    border-radius: 41px;
+    display: inline-block;
+    padding: 16px 40px;
+    color: black;
+}
+.view:hover{
+    background-color:yellow;
+    
+    
+    transition: .56s ease-in-out;
+    outline: 0;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    
+    
+}
+.button2{
+    position: relative;
+    top: 88px;
+    
+}
