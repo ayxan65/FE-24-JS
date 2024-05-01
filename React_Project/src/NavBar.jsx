@@ -4,6 +4,14 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
+  const links = [{to:'/',title:'Home'},
+                {to:'/Aboutus',title:'About us'},
+                {to:'/Features',title:'Features'},
+                {to:'/Pricing',title:'Pricing'},
+                {to:'/faq',title:'FAQ'},
+                {to:'/Blog',title:'Blog'},
+                
+]
 
   return (
     <div>
@@ -12,15 +20,13 @@ const NavBar = () => {
         <div className="Navcontainer">
        <Link to={'/'}> <img src={Logo}alt="" /></Link>
         <div className="links">
-        
-             <NavLink className='navlinks' to={'/'}>Home</NavLink>
-              <NavLink className='navlinks' to={'/Aboutus'}>About us</NavLink>
-              <NavLink className='navlinks' to={'/Features'}>Features</NavLink>
-              <NavLink className='navlinks' to={'/Pricing'}>Pricing</NavLink>
-              <NavLink className='navlinks' to={'/faq'}>FAQ</NavLink>
-              <NavLink className='navlinks' to={'/Blog'}>Blog</NavLink>
-              <Link className='button' to={'/contact'}>Contact us</Link>
-            
+             
+          {
+            links.map(({to,title})=>{
+              return <NavLink className='navlinks' to={to}>{title}</NavLink>
+            })
+          }
+            <Link className='button' to={'/contact'}>Contact us</Link>
 
            
           
