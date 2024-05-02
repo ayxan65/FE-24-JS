@@ -6,7 +6,8 @@ import image from './assets/image.svg';
 import pcimg from './assets/pcimg.svg';
 import { Link } from 'react-router-dom';
 import './css/homestyle.css';
-import Work from './Work.jsx';
+import İndex from './Home/index.jsx';
+import Feature from './Features/Feature.jsx';
 
 
 function App() {
@@ -24,10 +25,10 @@ return(
     <div>
         <NavBar/>
         <Routes>
-            <Route path='/' element={<Banner title={veriables[0].basliq} desc={veriables[1].description} link={veriables[2].link} link2={veriables[3].link2} img={image}/>}></Route>
+            <Route path='/' element={<İndex/>}></Route>
 
-            <Route path='/Features' element={<Banner title={veriables[4].basliq2} desc={veriables[1].description}
-             img={pcimg} link={veriables[5].link3}></Banner>}></Route>
+            <Route path='/Features' element={<Feature title={veriables[4].basliq2} desc={veriables[1].description}
+             img={pcimg} link={veriables[5].link3}></Feature>}></Route>
         </Routes>
         
         

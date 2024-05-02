@@ -5,7 +5,7 @@ const Work = () => {
     <div>
         <div className="main">
             <div className="container">
-                .l
+                
 
             </div>
         </div>
