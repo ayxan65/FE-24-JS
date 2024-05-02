@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+
 
 const Banner = ({title,desc,img,link,link2}) => {
   return (
