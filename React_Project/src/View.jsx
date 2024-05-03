@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import Rectangle from './assets/Rectangle 1316.svg'
+import Rectangle from './assets/Rectangle.svg'
 
 const View = () => {
   return (
@@ -15,7 +15,9 @@ const View = () => {
     </div>
       <div className="leftright">
       <div className="left2">
-            <img src={Rectangle} alt="" />
+           <div className="opacityimg"> 
+           
+           </div>
         </div>
       </div>
     </div>

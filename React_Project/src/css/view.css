@@ -26,3 +26,9 @@
 .leftright{
     margin: 1.8em 0;
 }
+.opacityimg{
+    background-image:url('../assets/Rectangle.svg');
+    height: 500px;
+    width: 300px;
+    border: 1px solid;
+}
