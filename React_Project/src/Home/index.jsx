@@ -3,6 +3,7 @@ import Banner from '../Banner';
 import Work from '../Work';
 import { Link } from 'react-router-dom';
 import image from '../assets/image.svg';
+import View from '../View';
 
 const İndex = () => {
   const veriables = [ {basliq:'Building stellar websites for early startups'},
@@ -17,6 +18,8 @@ const İndex = () => {
     <div>
         <Banner title={veriables[0].basliq} desc={veriables[1].description} link={veriables[2].link} link2={veriables[3].link2} img={image}/>
         <Work/>
+        <View/>
+
     </div>
   )
 }

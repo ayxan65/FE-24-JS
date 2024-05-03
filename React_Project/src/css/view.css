@@ -1,0 +1,21 @@
+.bigdiv{
+    height: 600px;
+}
+
+.ourview{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin: 0 4.5em;
+    justify-content: space-between;
+}
+.btncls{
+    display: flex;
+    position: relative;
+    top: 2px;
+}
+.arrlink{
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+}
