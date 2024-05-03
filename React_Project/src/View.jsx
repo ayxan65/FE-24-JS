@@ -16,7 +16,8 @@ const View = () => {
       <div className="leftright">
       <div className="left2">
            <div className="opacityimg"> 
-           
+           <p className='opp'>Workhub office Webflow Webflow Design</p>
+           <p className='lorem'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
            </div>
         </div>
       </div>
