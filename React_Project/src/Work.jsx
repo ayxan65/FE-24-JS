@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import Cards from './assets/Cardss.svg';
 
 const Work = () => {
   return (
@@ -18,7 +19,9 @@ const Work = () => {
                 <FaArrowRight className='arrow'></FaArrowRight>
                 </div>
                 </div>
-              
+              <div className="right1">
+                <img src={Cards} alt="" />
+              </div>
             </div>
         </div>
   
