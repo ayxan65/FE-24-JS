@@ -1,21 +1,28 @@
 .bigdiv{
     height: 600px;
+    margin: 0 4.5em;
 }
-
+.viewourproject{
+    font-size: 28px;
+    font-weight: 700;
+}
 .ourview{
     display: flex;
     align-items: center;
-    height: 70px;
-    margin: 0 4.5em;
+    height: 100px;
     justify-content: space-between;
 }
 .btncls{
     display: flex;
     position: relative;
     top: 2px;
+    font-weight: 700;
 }
 .arrlink{
     position: relative;
-    top: 3px;
+    top: 4px;
     margin-left: 10px;
+}
+.leftright{
+    margin: 1.8em 0;
 }
