@@ -5,7 +5,7 @@
 
 .main1{
     background-color: rgba(244, 246, 252, 1);
-    height: 570px;
+    height: 640px;
 
     
 }
@@ -16,7 +16,7 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     
 }
 .title1{
@@ -27,7 +27,7 @@
 .left1{
     color:black;
     width: 400px;
-
+    
 
 }
 
