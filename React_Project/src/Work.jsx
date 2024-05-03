@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Work = () => {
   return (
     <div>
-        <div className="main1">
+    
+    <div className="main1">
             <div className="container1">
                 <div className="left1">
                 <div className="title1">How we work</div>
@@ -13,11 +15,13 @@ const Work = () => {
                 </div>
                 <div className="getbtn">
                 <Link to={'/'} className='Getbtn'>Get in touch with us</Link>
+                <FaArrowRight className='arrow'></FaArrowRight>
                 </div>
                 </div>
               
             </div>
         </div>
+  
     </div>
   )
 }
