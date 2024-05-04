@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import image from '../assets/image.svg';
 import View from '../View';
 import Desing from '../Desing';
+import Clients from '../Clients';
 
 const İndex = () => {
   const veriables = [ {basliq:'Building stellar websites for early startups'},
@@ -21,6 +22,7 @@ const İndex = () => {
         <Work/>
         <View/>
         <Desing/>
+        <Clients/>
 
     </div>
   )

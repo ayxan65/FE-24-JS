@@ -1,0 +1,55 @@
+.Clientmain{
+    background-color: rgb(236, 239, 246);
+    height: 480px;
+    
+}
+.client-container{
+    height: 480px;
+    padding: 8em 4.5em;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+   position: relative;
+   top: 30px;
+}
+.right-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-left{
+    width: 350px;
+}
+.right-header{
+    font-size: 34px;
+    font-weight: 800;
+    
+}
+.client-right{
+    width: 800px;
+}
+.client-header{
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: .3em;
+}
+.person-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.person-title{
+    font-size: 14px;
+}
+.person{
+    margin-left: 0.6em;
+}
+.persondata{
+    margin-top: 3em;
+    display: flex;
+
+}

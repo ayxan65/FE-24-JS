@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './css/homestyle.css';
 import './css/view.css';
 import './css/desing.css';
+import './css/client.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <App /></BrowserRouter>
