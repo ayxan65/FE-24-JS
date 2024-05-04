@@ -26,7 +26,7 @@ const BlogData = () => {
             data.map(({img,title,desc,btn})=>{
                 return <div>
               <div className="bbb">
-              <div className="blog-info">
+              {/* <div className="blog-info">
                   <div className="blog-hf">
                  <img className='blogimg' src={img} alt="" />
                   <div className="blog-header">
@@ -39,7 +39,7 @@ const BlogData = () => {
                         {btn}
                     </div>
                   </div>
-                 </div>
+                 </div> */}
               </div>
                 </div>
             }
