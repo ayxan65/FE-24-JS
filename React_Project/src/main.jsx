@@ -10,6 +10,7 @@ import './css/client.css';
 import './css/question.css';
 import './css/input.css';
 import './css/blog.css';
+import './css/footer.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <App /></BrowserRouter>

@@ -9,6 +9,7 @@ import Clients from '../Clients';
 import Questions from './Questions';
 import İnput from './İnput';
 import Blog from './Blog';
+import Footer from '../Footer';
 
 
 const İndex = () => {
@@ -30,6 +31,7 @@ const İndex = () => {
         <Questions/>
         <İnput/>
         <Blog/>
+        <Footer/>
 
 
     </>
