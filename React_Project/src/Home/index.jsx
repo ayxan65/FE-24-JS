@@ -6,6 +6,8 @@ import image from '../assets/image.svg';
 import View from '../View';
 import Desing from '../Desing';
 import Clients from '../Clients';
+import Questions from './Questions';
+
 
 const İndex = () => {
   const veriables = [ {basliq:'Building stellar websites for early startups'},
@@ -23,6 +25,7 @@ const İndex = () => {
         <View/>
         <Desing/>
         <Clients/>
+        <Questions/>
 
     </div>
   )
