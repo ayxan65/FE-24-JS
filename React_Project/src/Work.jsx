@@ -16,7 +16,7 @@ const Work = () => {
                 </div>
                 <div className="getbtn">
                 <Link to={'/'} className='Getbtn'>Get in touch with us</Link>
-                <FaArrowRight className='arrow'></FaArrowRight>
+                
                 </div>
                 </div>
               <div className="right1">

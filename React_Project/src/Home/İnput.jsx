@@ -1,14 +1,12 @@
 import React from 'react';
-import form from '../assets/Form.svg'
+import image from '../assets/contact.svg';
 
 const input = () => {
   return (
     <>
     <div className="inputmain">
        <div className="question-container">
-       <div className="inputright">
-            <img src={form} alt="" />
-        </div>
+       <img className='sekil' src={image} alt="" />
        </div>
     </div>
 
