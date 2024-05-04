@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import Rectangle from './assets/Rectangle.svg'
+import ourimg from './assets/ourwork.svg';
 
 const View = () => {
   return (
@@ -10,6 +10,7 @@ const View = () => {
         <div className="viewourproject">View our projects</div>
         <div className="btncls">
         <div className="Link">View More</div>
+        <img src={ourimg} alt="" />
         <FaArrowRight className='arrlink'></FaArrowRight>
         </div>
     </div>

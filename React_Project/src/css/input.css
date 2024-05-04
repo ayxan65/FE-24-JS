@@ -1,0 +1,10 @@
+.inputright{
+    
+    /* height: 550px;
+    width: 600px; */
+
+}
+.inputmain{
+    display: flex;
+    justify-content: end;
+}

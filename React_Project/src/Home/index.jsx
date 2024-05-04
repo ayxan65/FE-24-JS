@@ -7,6 +7,7 @@ import View from '../View';
 import Desing from '../Desing';
 import Clients from '../Clients';
 import Questions from './Questions';
+import İnput from './İnput'
 
 
 const İndex = () => {
@@ -26,6 +27,8 @@ const İndex = () => {
         <Desing/>
         <Clients/>
         <Questions/>
+        <İnput/>
+
 
     </div>
   )
