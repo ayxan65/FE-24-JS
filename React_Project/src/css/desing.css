@@ -39,13 +39,25 @@ background-color:  rgba(244, 246, 252, 1);
     margin-left: 10px;
     gap: 70px;
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
+    
 }
 .box img{
     margin: 2em 1.6em ;
     height: 27px;
     width: 32px;
+}
+.box p{
+    font-size: 20px;
+    margin-left: 1.14em;
+    
+}
+.box div{
+    margin-left: 1.14em;
+    margin-top: 1.2em;
+    margin-right: 1.14em;
+    line-height: 28px;
+    color: rgb(118, 119, 137);
+    font-weight: 500;
 }
 .boxes{
   height: 500px;
