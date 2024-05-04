@@ -7,7 +7,8 @@ import View from '../View';
 import Desing from '../Desing';
 import Clients from '../Clients';
 import Questions from './Questions';
-import İnput from './İnput'
+import İnput from './İnput';
+import Blog from './Blog';
 
 
 const İndex = () => {
@@ -20,7 +21,7 @@ const İndex = () => {
 ]
 
   return (
-    <div>
+    <>
         <Banner title={veriables[0].basliq} desc={veriables[1].description} link={veriables[2].link} link2={veriables[3].link2} img={image}/>
         <Work/>
         <View/>
@@ -28,10 +29,11 @@ const İndex = () => {
         <Clients/>
         <Questions/>
         <İnput/>
+        <Blog/>
 
 
-    </div>
+    </>
   )
 }
-// <İndex title={veriables[0].basliq} desc={veriables[1].description} link={veriables[2].link} link2={veriables[3].link2} img={image}/>}>
+
 export default İndex
