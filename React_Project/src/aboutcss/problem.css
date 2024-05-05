@@ -1,0 +1,11 @@
+.prob-left{
+    width: 440px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second-prob{
+    font-weight: 800;
+    font-size: 40px;
+}
