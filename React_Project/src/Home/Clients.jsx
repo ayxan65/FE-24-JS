@@ -1,5 +1,5 @@
 import React from 'react';
-import personimg from './assets/person.svg';
+import personimg from '../assets/person.svg';
 import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Clients = () => {

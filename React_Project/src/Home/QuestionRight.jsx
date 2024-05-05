@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Accordion from '../Accardion';
+import Accordion from './Accardion';
 
 const QuestionRight = () => {
     const Data = [

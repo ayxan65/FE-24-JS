@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
-import Cards from './assets/Cardss.svg';
+import Cards from '../assets/Cardss.svg';
 
 const Work = () => {
   return (

@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
-import ourimg from './assets/ourwork.svg';
+import ourimg from '../assets/ourwork.svg';
 
 const View = () => {
   return (

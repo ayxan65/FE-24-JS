@@ -1,10 +1,10 @@
 import React from 'react';
-import icon1 from './assets/Icon.svg';
-import icon2 from './assets/ruler.svg';
-import icon3 from './assets/ok.svg';
-import icon4 from './assets/Icon8.svg';
-import icon5 from './assets/some.svg';
-import icon6 from './assets/ok2.svg'; 
+import icon1 from '../assets/Icon.svg';
+import icon2 from '../assets/ruler.svg';
+import icon3 from '../assets/ok.svg';
+import icon4 from '../assets/Icon8.svg';
+import icon5 from '../assets/some.svg';
+import icon6 from '../assets/ok2.svg'; 
 
 const DesingData = () => {
     const Data =[

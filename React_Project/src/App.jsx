@@ -5,6 +5,7 @@ import './css/homestyle.css';
 import İndex from './Home/index.jsx';
 import Feature from './Features/Feature.jsx';
 import Footer from './Footer.jsx';
+import About from './AboutUs/index.jsx';
 
 
 function App() {
@@ -16,7 +17,7 @@ return(
             <Route path='/' element={<İndex/>}></Route>
 
             <Route path='/Features' element={<Feature/>}></Route>
-            
+            <Route path='/Aboutus' element={<About/>}></Route>
         </Routes>
         
       

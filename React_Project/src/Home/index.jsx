@@ -1,11 +1,11 @@
 import React from 'react';
 import Banner from '../Banner';
-import Work from '../Work';
+import Work from './Work';
 import { Link } from 'react-router-dom';
 import image from '../assets/image.svg';
-import View from '../View';
-import Desing from '../Desing';
-import Clients from '../Clients';
+import View from './View';
+import Desing from './Desing';
+import Clients from './Clients';
 import Questions from './Questions';
 import İnput from './İnput';
 import Blog from './Blog';
