@@ -84,6 +84,7 @@
 .logos-right-con{
     display: flex;
     justify-content: space-between;
-    width: 170px;
+    width: 150px;
     margin-top: 2.5em;
+    cursor: pointer;
 }
