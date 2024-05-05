@@ -7,6 +7,11 @@
 
 .footer-con{
     padding: 4em 4.5em;
+    display: flex;
+    /* background-color: red; */
+    height: 300px;
+    width: 100%;
+    justify-content: space-between;
   
 
    
@@ -30,11 +35,55 @@
     width: 400px;
     background-color: rgba(252, 217, 128, 1);
     position: relative;
-    left: 4.5em;
+    
     color: #000;
+    top: 2em;
 }
 .infosfoot{
     margin-left: 10px;
     display: flex;
     gap: 17px;
+}
+.left-con{
+  
+   height: 220px;
+   width: 500px;
+ 
+   
+}
+.right-con{
+   /* height: 100px;
+   padding: 100px; */
+   margin-bottom: 10px;
+
+
+   
+   
+}
+.email{
+    font-weight: 600;
+}
+.phone{
+    font-weight: 600;
+}
+.hrc{
+    position: relative;
+    bottom: 5px;
+}
+.title-right-con{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+    
+ 
+}
+.foot-right-con{
+    width: 450px;
+}
+.logos-right-con{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-top: 2.5em;
 }
