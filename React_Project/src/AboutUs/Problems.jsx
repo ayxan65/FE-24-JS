@@ -1,20 +1,21 @@
 import React from 'react';
 import people from '../assets/Aboutus/people.svg';
 
-const Problems = () => {
+const Problems = ({head,title,desc}) => {
+
   return (
     <>
     <div className="question-container">
      
      <div className="prob-left">
            <div style={{fontSize:'18px'}} className="first-prob">
-            About us
+            {head}
            </div>
            <div className="second-prob">
-           Our designs solve problems
+           {title}
            </div>
            <div className="third-prob">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            {desc}
            </div>
 
         </div>

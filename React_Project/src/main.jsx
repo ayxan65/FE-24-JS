@@ -12,11 +12,10 @@ import './css/input.css';
 import './css/blog.css';
 import './css/footer.css';
 import './aboutcss/problem.css';
-import './aboutcss/goal.css'
+import './aboutcss/goal.css';
+import './aboutcss/follow.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <App /></BrowserRouter>
-  
-    
-  
+ 
 )
