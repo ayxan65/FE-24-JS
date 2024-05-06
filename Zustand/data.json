@@ -1,0 +1,79 @@
+
+    {
+     "restaurant":[
+        
+            {
+              "name": "Sizzling Steaks",
+              "rating": 4.5,
+              "capacity": 50,
+              "menu": [
+                {
+                  "name": "Ribeye Steak",
+                  "price": 24.99
+                },
+                {
+                  "name": "Filet Mignon",
+                  "price": 29.99
+                },
+                {
+                  "name": "Grilled Chicken Breast",
+                  "price": 14.99
+                },
+                {
+                  "name": "Vegetable Stir-Fry",
+                  "price": 12.99
+                }
+              ]
+            },
+            {
+              "name": "Tasty Tacos",
+              "rating": 4.2,
+              "capacity": 30,
+              "menu": [
+                {
+                  "name": "Beef Taco",
+                  "price": 3.50
+                },
+                {
+                  "name": "Chicken Quesadilla",
+                  "price": 8.99
+                },
+                {
+                  "name": "Veggie Burrito",
+                  "price": 7.99
+                },
+                {
+                  "name": "Chips and Salsa",
+                  "price": 4.25
+                }
+              ]
+            },
+            {
+              "name": "Pizza Paradise",
+              "rating": 4.7,
+              "capacity": 40,
+              "menu": [
+                {
+                  "name": "Pepperoni Pizza",
+                  "price": 11.99
+                },
+                {
+                  "name": "Vegetarian Pizza",
+                  "price": 10.99
+                },
+                {
+                  "name": "BBQ Chicken Pizza",
+                  "price": 12.50
+                },
+                {
+                  "name": "Garlic Breadsticks",
+                  "price": 5.99
+                }
+              ]
+            }
+          
+     ]
+    }
+    
+     
+  

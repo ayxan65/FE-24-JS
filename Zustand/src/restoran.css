@@ -1,0 +1,17 @@
+
+.namediv{
+    height: 300px;
+    width: 400px;
+    border: 1px solid;
+
+}
+.menudiv{
+    height: 800px;
+    width: 100%;
+    margin:  auto;
+    
+    justify-content: space-evenly;
+    align-items: center;
+   
+    display: flex;
+}

@@ -1,22 +1,19 @@
 import React from 'react';
-import useCounter from './UseCounter'; 
+import { Route , Routes } from 'react-router';
+import Restoran from './Restoran';
+
 
 const App = () => {
-  const { count, increment ,decrement } = useCounter(); 
-  console.log(count);
-  console.log(increment);
-
   return (
     <>
-    
-    <div style={{margin:'4em'}}>
-    <div style={{fontSize:'24px'}}>{count}</div>
-      <button style={{width:'120px',height:'35px'}} onClick={increment}>Increment</button> 
-      <button style={{width:'120px',height:'35px'}} onClick={decrement}>decrement</button> 
-    </div>
+    <Routes>
+      <Route path={'/'} element={<Restoran/>} />
+    </Routes>
     </>
-  );
+
+
+  )
 }
 
-export default App;
+export default App
 
