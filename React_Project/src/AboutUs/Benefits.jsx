@@ -1,5 +1,6 @@
 import React from 'react'
 import BenefitsData from './BenefitsData'
+import BenefitFooter from '../Home/BenefitFooter'
 
 const Benefits = () => {
   return (
@@ -12,6 +13,9 @@ const Benefits = () => {
             </div>
             <div className="center-benefits">
                 <BenefitsData/>
+            </div>
+            <div className="benefit-footer">
+              <BenefitFooter/>
             </div>
         </div>
     </div>

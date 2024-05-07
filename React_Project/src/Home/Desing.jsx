@@ -12,6 +12,9 @@ const Desing = ({ tit,title,subtitle,subtitle2}) => {
               <DesingData/>
             </div>
         </div>
+        <div className="benefit-footer">
+          
+        </div>
         </div>
     </div>
     </>

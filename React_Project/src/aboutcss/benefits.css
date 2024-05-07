@@ -12,7 +12,7 @@
 }
 .benefit-container{
     margin: 4em 4.5em;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
   
     align-items: space-between;
@@ -25,13 +25,49 @@
     color: #212121;
 }
 .center-benefits{
+    margin-top: 4em;
 display: flex;
+flex-wrap: nowrap;
+gap: 90px;
+
+
 }
 .box-bene{
-    width: 400px;
     height: 300px;
-    margin-left: 10px;
-    gap: 70px;
+    width: 400px;
     background-color: 
     rgba(244, 246, 252, 1);
+}
+.box-bene div{
+    margin-left: 1.14em;
+    margin-top: 1.2em;
+    margin-right: 1.14em;
+    line-height: 28px;
+    color: rgb(118, 119, 137);
+    font-weight: 500;
+}
+
+.box-bene img{
+    margin: 2em 1.6em ;
+    height: 27px;
+    width: 32px;
+}
+.box-bene p{
+    font-size: 20px;
+    margin-left: 1.14em;
+}
+
+.benefit-footer{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 7em;
+    color: rgb(37, 38, 45);
+
+}
+.hundered{
+    font-weight: 700;
+    font-size: 30px;
 }
