@@ -15,7 +15,7 @@ return(
         <NavBar/>
         <Routes>
             <Route path='/' element={<İndex/>}></Route>
-
+                
             <Route path='/Features' element={<Feature/>}></Route>
             <Route path='/Aboutus' element={<About/>}></Route>
         </Routes>

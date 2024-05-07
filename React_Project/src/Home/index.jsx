@@ -12,6 +12,7 @@ import Blog from './Blog';
 import Footer from '../Footer';
 
 
+
 const İndex = () => {
   const veriables = [ {basliq:'Building stellar websites for early startups'},
  {description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
@@ -26,7 +27,7 @@ const İndex = () => {
         <Banner title={veriables[0].basliq} desc={veriables[1].description} link={veriables[2].link} link2={veriables[3].link2} img={image}/>
         <Work/>
         <View/>
-        <Desing/>
+        <Desing  tit='Features' title='Design that solves' subtitle='problems, one product at ' subtitle2='a time' />
         <Clients/>
         <Questions/>
         <İnput/>

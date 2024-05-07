@@ -1,11 +1,11 @@
 import React from 'react';
 import people from '../assets/Aboutus/people.svg';
 
-const Problems = ({head,title,desc}) => {
+const Problems = ({color, head,title,desc}) => {
 
   return (
     <>
-    <div className="question-container">
+    <div style={{backgroundColor:color}}  className="question-container">
      
      <div className="prob-left">
            <div style={{fontSize:'18px'}} className="first-prob">
