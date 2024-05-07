@@ -6,7 +6,9 @@ const Restoran = () => {
   return (
     <>
     <div className='main'>
+        
         <Menu/>
+        
 
     </div>
     </>

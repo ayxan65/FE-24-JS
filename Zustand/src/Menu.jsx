@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState , useEffect } from 'react';
 import axios from 'axios';
-
+import { Link } from 'react-router-dom';
 const Menu = () => {
   const [restoran, setRestoran] = useState([]);
     const url = 'http://localhost:3000/restaurant/';
@@ -19,12 +19,12 @@ const Menu = () => {
    <div className="menudiv">
      
    {
-            restoran.map(({name,rating,capacity})=>(
-                <div className='namediv' key={name}>
-                    <h1>{name}</h1>
-                    <h2>{rating}</h2>
-                    <h3>{capacity}</h3>
-                </div>
+            restoran.map(({id,name,rating,capacity})=>(
+             <Link to={`/Price/${id}`} key={id}> <div className='namediv' key={name}>
+             <h1>{name}</h1>
+             <h2>rating: {rating}</h2>
+             <h3>{capacity}</h3>
+         </div></Link>
             ))
         }
    </div>
