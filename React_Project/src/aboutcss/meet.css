@@ -1,0 +1,57 @@
+.main-meet{
+    background-color: rgba(244, 246, 252, 1);
+    height: 620px;
+}
+.main-meet2{
+    margin:2em  4.5em;
+    height: 32em;
+    background-color: 
+    rgba(244, 246, 252, 1);
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title-meet{
+    margin-top: 3em;
+    font-weight: 800;
+    font-size: 36px;
+    color: rgba(40, 41, 56, 1);
+
+}
+.cards-meet{
+    display: flex;
+     justify-content: space-between;
+    
+    height: 450px;
+    width: 100%;
+   
+    margin-top: 4em;
+ 
+}
+
+.card-meet{
+    height: 310px;
+    width: 250px;
+    background-color: #fff;
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.foot-ben{
+    color: gray;
+    margin-top: .5em;
+}
+.card-meet img{height: 120px;
+width: 120px;
+margin-top: 3em;
+}
+.tit-ben{
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -4,6 +4,8 @@ import Goals from './Goals'
 import Follow from './Follow'
 import Desing from '../Home/Desing'
 import Benefits from './Benefits'
+import Meet from './Meet'
+import Footer from '../Footer'
 
 const index = () => {
   return (
@@ -13,6 +15,8 @@ const index = () => {
    <Follow/>
    <Problems color='rgba(238, 244, 250, 1)' head='Our vision' title='Laser focus' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'/>
    <Benefits/>
+   <Meet/>
+   <Footer/>
    </>
    
   )
