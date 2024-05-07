@@ -14,6 +14,7 @@ import './css/footer.css';
 import './aboutcss/problem.css';
 import './aboutcss/goal.css';
 import './aboutcss/follow.css';
+import './aboutcss/benefits.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <App /></BrowserRouter>
