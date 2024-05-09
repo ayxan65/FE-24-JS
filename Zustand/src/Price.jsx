@@ -5,28 +5,29 @@ import axios from 'axios';
 
 const Price = () => {
     const [menu,setMenu] = useState([]);
-    const { restaurantId } = useParams();
+   
     useEffect(()=>{
         const GetData =async()=>{
-            const url =`http://localhost:3000/menu/${restaurantId}`;
+            const url =`http://localhost:3000/restaurant/`;
             const {data} = await axios.get(url);
+            console.log(data);
             console.log(data);
             setMenu(data)
         }
         GetData();
 
-    },[restaurantId])
+    },[])
   return (
     
     <>
     <div>
       {
-        menu.map(({name,price})=>(
+        menu.map(({menu})=>(
           <div>
             <h2>
-              {name}
+              {menu}
             </h2>
-            <h3>{price}</h3>
+            <h3></h3>
 
           </div>
         ))

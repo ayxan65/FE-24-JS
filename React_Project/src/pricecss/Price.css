@@ -1,0 +1,21 @@
+.price-title{
+    display: flex;
+
+}
+.price-banner{
+    margin-top: 2em;
+    font-weight: 800;
+    font-size: 38px;
+    columns: #212121;
+}
+.price-head{
+    max-width: 560px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.price-footer{
+    color: gray;
+}
