@@ -7,6 +7,7 @@ import Feature from './Features/Feature.jsx';
 import About from './AboutUs/index.jsx';
 
 import Pindex from './Pricing/Pindex.jsx';
+import Cindex from './Contact/Cindex.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ return(
              <Route path='/Pricing' element={<Pindex/>}></Route>   
             <Route path='/Features' element={<Feature/>}></Route>
             <Route path='/Aboutus' element={<About/>}></Route>
+            <Route path='/contact' element={<Cindex/>}></Route>
         </Routes>
         
       

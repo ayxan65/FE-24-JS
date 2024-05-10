@@ -17,6 +17,7 @@ import './aboutcss/follow.css';
 import './aboutcss/benefits.css';
 import './aboutcss/meet.css';
 import './pricecss/Price.css';
+import './Contact/contactcss/contact.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <App /></BrowserRouter>
