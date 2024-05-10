@@ -8,10 +8,10 @@
 }
 .contact-container{
     width: 1000px;
-    height: 700px;
+    height: 750px;
     background-color: 
     rgba(244, 246, 252, 1);
-
+    border-radius: 16px;
 }
 .name-email{
    font-weight: 600;
@@ -60,7 +60,7 @@
 }
 #mes-button{
     margin-top: 2em;
- width: 250px;
+ width: 230px;
  height: 60px;
 border-radius: 35px;
 
