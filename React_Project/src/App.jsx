@@ -5,7 +5,8 @@ import './css/homestyle.css';
 import İndex from './Home/index.jsx';
 import Feature from './Features/Feature.jsx';
 import About from './AboutUs/index.jsx';
-import Price from './Pricing/Price.jsx';
+
+import Pindex from './Pricing/Pindex.jsx';
 
 
 function App() {
@@ -15,7 +16,7 @@ return(
         <NavBar/>
         <Routes>
             <Route path='/' element={<İndex/>}></Route>
-             <Route path='/Pricing' element={<Price/>}></Route>   
+             <Route path='/Pricing' element={<Pindex/>}></Route>   
             <Route path='/Features' element={<Feature/>}></Route>
             <Route path='/Aboutus' element={<About/>}></Route>
         </Routes>
