@@ -1,7 +1,7 @@
 import React from 'react';
-import people from '../assets/Aboutus/people.svg';
 
-const Problems = ({color, head,title,desc}) => {
+
+const Problems = ({ img,color, head,title,desc}) => {
 
   return (
     <>
@@ -20,7 +20,7 @@ const Problems = ({color, head,title,desc}) => {
 
         </div>
         <div className="img-div-prob">
-            <img src={people} alt="" />
+            <img src={img} alt="" />
         </div>
  
     </div>
