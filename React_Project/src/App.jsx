@@ -8,6 +8,7 @@ import About from "./AboutUs/index.jsx";
 import Pindex from "./Pricing/Pindex.jsx";
 import Cindex from "./Contact/Cindex.jsx";
 import Blogİndex from "./Blog/Blogİndex.jsx";
+import Faqİndex from "./FAQ/Faqİndex.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Aboutus" element={<About />}></Route>
         <Route path="/contact" element={<Cindex />}></Route>
         <Route path="/Blog" element={<Blogİndex />}></Route>
+        <Route path="/FAQ" element={<Faqİndex/>}></Route>
       </Routes>
     </>
   );

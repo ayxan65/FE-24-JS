@@ -42,6 +42,12 @@
 .our_blog{
     display: flex;
 }
+.title-blog-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .big-cards{
     display: flex;
    flex-wrap: wrap;
