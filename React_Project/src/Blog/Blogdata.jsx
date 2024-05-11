@@ -4,7 +4,7 @@ import img2 from "./blog-assets/blog2.svg";
 import img3 from "./blog-assets/blog3.svg";
 import img4 from "./blog-assets/blog4.svg";
 import img5 from "./blog-assets/blog5.svg";
-import img6 from "./blog-assets/blog6.svg";
+import img6 from "./blog-assets/new.svg";
 
 const Blogdata = () => {
   const data = [
