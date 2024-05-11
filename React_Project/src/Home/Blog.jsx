@@ -14,7 +14,7 @@ const Blog = () => {
             </div>
             <div className="blog-infoo">
             {/* <BlogData/> */}
-            {/* Reactive flex islemedi :( */}
+            {/* Reactive  islemedi :( */}
 
             <div className="blog-info">
                   <div className="blog-hf">
