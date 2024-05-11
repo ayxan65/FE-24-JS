@@ -7,6 +7,10 @@ import Problems from "../AboutUs/Problems";
 import boy from "./featureimmg/boy.svg";
 import Revision from "./Revision";
 import office from "./featureimmg/office.svg";
+import call from "./featureimmg/call.svg";
+import laptop from "./featureimmg/laptop.svg";
+import Questions from "../Home/Questions";
+import Footer from "../Footer";
 
 const Feature = () => {
   const veriables = [
@@ -60,10 +64,27 @@ Client-first "
         img={office}
         color=" 
 rgba(244, 246, 252, 1)"
-height='500px'
- title='Get free Revisions and one week of free maintenance'
-
+        height="500px"
+        head="Free Revision Rounds"
+        title="Get free Revisions and one week of free maintenance"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
       />
+
+      <Problems
+        img={call}
+        head="24/7 Support"
+        title="Working with us, you will be getting 24/7 priority support"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+      />
+      <Revision
+        img={laptop}
+        head="Quick Delivery"
+        title="Guranteed 1 week delivery for standard five pager website"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        color="rgba(252, 217, 128, 0.1)"
+      />
+      <Questions/>
+      <Footer/>
     </>
   );
 };
