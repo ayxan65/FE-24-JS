@@ -4,19 +4,17 @@ import { useParams } from 'react-router';
 import axios from 'axios';
 
 const Price = () => {
-    const [menu,setMenu] = useState([]);
-   
-    useEffect(()=>{
-        const GetData =async()=>{
-            const url =`http://localhost:3000/restaurant/`;
-            const {data} = await axios.get(url);
-            console.log(data);
-            console.log(data);
-            setMenu(data)
-        }
-        GetData();
+  const url = 'http://localhost:3000/restaurant';
 
-    },[])
+fetch(url).then((res) => {
+    return res.json()
+}).then((data) => {
+    data.map(({menu}) => {
+    menu.map((a) => {
+        console.log(a);
+    })
+    });
+})
   return (
     
     <>

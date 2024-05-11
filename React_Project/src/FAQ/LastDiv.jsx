@@ -3,7 +3,7 @@ import faqimg from "./faqimg/faqimg.svg";
 
 const LastDiv = () => {
   return (
-    <div>
+    <>
       <div className="Last-div">
         <div className="title-faq">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -66,7 +66,7 @@ const LastDiv = () => {
         </div>
         <img className="faqimg" src={faqimg} alt="" />
         <div className="title-faq">Ut enim ad minim veniam, quis nostrud.</div>
-        <div style={{marginBottom:'3em'}} className="title-desc">
+        <div style={{ marginBottom: "3em" }} className="title-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -81,7 +81,7 @@ const LastDiv = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

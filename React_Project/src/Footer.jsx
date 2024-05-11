@@ -5,10 +5,10 @@ import insta from './assets/insta.svg';
 import tw from './assets/tw.svg';
 import linkedn from './assets/linkedn.svg';
 
-const Footer = () => {
+const Footer = ({margin}) => {
   return (
     <>
-    <div className="footer-main">
+    <div style={{marginTop:margin}} className="footer-main">
         <div className="footer-con">
             <div className="left-con">
             <img src={Logo} alt="" />
